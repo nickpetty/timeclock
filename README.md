@@ -18,7 +18,7 @@ print clock.now(format="%H:%M")
 > 16:19
 ```
 
-Timezone specification (This is be a temporary assignment):
+Timezone specification (This is a temporary assignment):
 
 ```python
 print clock.now(tz='GMT')
