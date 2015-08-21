@@ -9,7 +9,7 @@ clock = Clock('EST')
 # print clock.now()
 format = "%Y %m %d %H %M %S"
 
-print clock.now()
+print clock.now(tz='GMT')
 # print "Time until the 21th: "
 # print clock.elTime(clock.now(format), "2015 08 21 16 01 01", format=format)
 

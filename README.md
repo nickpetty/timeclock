@@ -19,7 +19,8 @@ print clock.now(format="%H:%M")
 Timezone specification (This is be a temporary assignment):
 
 ```python
-print clock.now(tz='EST')
+print clock.now(tz='GMT')
+> 21:19:36 - 08/21/2015
 ```
 
 Measuring time elapsed (past time first):
