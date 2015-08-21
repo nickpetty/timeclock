@@ -2,6 +2,8 @@ Timeclock
 ---------
 Simpler Date/Time Wrapper for Python
 
+Datetime [Format Directives](https://docs.python.org/2/library/datetime.html#strftime-and-strptime-behavior).
+
 When initializing ```Clock()``` specify your current Timezone (Permanent assignment).
 ```python
 from timeclock import Clock
@@ -28,5 +30,5 @@ Measuring time elapsed (past time first):
 ```python
 format = "%H %M %S"
 print clock.elTime(clock.now(format), "22 18 00", format=format)
-> {'Sec': 20501, 'Hour': 5, 'Min': 41}
+> {'Sec': 20501, 'Hour': 5, 'Min': 341} #Total time for each value
 ```

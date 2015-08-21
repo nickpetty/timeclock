@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: timeclock
+Version: 1.0.0
+Summary: A simpler date/time python wrapper.
+Home-page: https://github.com/nickpetty/timeclock
+Author: Nicholas Petty
+Author-email: nick@ihackeverything.com
+License: MIT
+Description: Test
+        
+Keywords: datetime
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4

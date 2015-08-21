@@ -1,0 +1,9 @@
+DESCRIPTION.rst
+MANIFEST.in
+setup.cfg
+setup.py
+timeclock.egg-info/PKG-INFO
+timeclock.egg-info/SOURCES.txt
+timeclock.egg-info/dependency_links.txt
+timeclock.egg-info/requires.txt
+timeclock.egg-info/top_level.txt

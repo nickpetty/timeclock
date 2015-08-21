@@ -25,4 +25,4 @@ class Clock:
     def elTime(self, date1, date2, format="%Y %m %d %H %M %S"):
         td = datetime.strptime(date2, format) - datetime.strptime(date1, format)
         #return dict object
-        return {"Hour":td.seconds//3600, "Min":(td.seconds//60)%60 , "Sec":td.seconds}
+        return {"Hour":td.seconds//3600, "Min":td.seconds//60 , "Sec":td.seconds}

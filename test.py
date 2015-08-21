@@ -7,9 +7,9 @@ clock = Clock('EST')
 # print clock.now(tz='GMT', format='%H')
 #
 # print clock.now()
-format = "%Y %m %d %H %M %S"
+#format = "%Y %m %d %H %M %S"
 
-print clock.now(tz='GMT')
+#print clock.now(tz='GMT')
 # print "Time until the 21th: "
 # print clock.elTime(clock.now(format), "2015 08 21 16 01 01", format=format)
 
@@ -20,5 +20,5 @@ print clock.now(tz='GMT')
 # now = clock.now(format)
 #
 # print clock.elTime(then, now, format=format)
-format = "%H %M %S"
-print clock.elTime(clock.now(format), "22 18 00", format=format)
+format = "%M"
+print clock.elTime(clock.now(format), "20", format=format)
