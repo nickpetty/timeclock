@@ -29,6 +29,6 @@ Measuring time elapsed (past time first):
 
 ```python
 format = "%H %M %S"
-print clock.elTime(clock.now(format), "22 18 00", format=format)
+print clock.elap(clock.now(format), "22 18 00", format=format)
 > {'Sec': 20501, 'Hour': 5, 'Min': 341} #Total time for each value
 ```
